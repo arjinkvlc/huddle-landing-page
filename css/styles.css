@@ -1,0 +1,48 @@
+/*
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+
+### Neutral
+
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+.try-button{
+    border-radius: 20px;
+    color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+.try-button:hover{
+    background-color: white;
+    color: hsl(321, 100%, 78%);
+    border-color: hsl(321, 100%, 78%);
+}
+.navbar{
+    padding: 5% 5% 12% 5%;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+}
+.centering{
+    text-align: center;
+    padding: 0% 5% 0% 5%;
+}
+.get-button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 30px;
+    font-size: larger;
+    
+}
+.get-button:hover{
+    background-color: hsl(321, 100%, 78%);
+    color: white;
+}
